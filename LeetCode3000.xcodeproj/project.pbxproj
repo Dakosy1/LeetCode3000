@@ -13,6 +13,9 @@
 		3D6E64BB2C2B2F0900635469 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E64BA2C2B2F0900635469 /* Base */; };
 		3D6E64BD2C2B2F0B00635469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E64BC2C2B2F0B00635469 /* Assets.xcassets */; };
 		3D6E64C02C2B2F0B00635469 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E64BF2C2B2F0B00635469 /* Base */; };
+		3D6E64C92C2B2FE600635469 /* 1.TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E64C82C2B2FE600635469 /* 1.TwoSum.swift */; };
+		3D6E64CB2C2B305600635469 /* 2.LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E64CA2C2B305600635469 /* 2.LongestSubstringWithoutRepeatingCharacters.swift */; };
+		3D6E64CD2C2B30C300635469 /* 9.PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E64CC2C2B30C300635469 /* 9.PalindromeNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3D6E64BC2C2B2F0B00635469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6E64BF2C2B2F0B00635469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6E64C12C2B2F0B00635469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6E64C82C2B2FE600635469 /* 1.TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.TwoSum.swift; sourceTree = "<group>"; };
+		3D6E64CA2C2B305600635469 /* 2.LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		3D6E64CC2C2B30C300635469 /* 9.PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9.PalindromeNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		3D6E64B22C2B2F0900635469 /* LeetCode3000 */ = {
 			isa = PBXGroup;
 			children = (
+				3D6E64C72C2B2FB700635469 /* LeetCode */,
 				3D6E64B32C2B2F0900635469 /* AppDelegate.swift */,
 				3D6E64B52C2B2F0900635469 /* SceneDelegate.swift */,
 				3D6E64B72C2B2F0900635469 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				3D6E64C12C2B2F0B00635469 /* Info.plist */,
 			);
 			path = LeetCode3000;
+			sourceTree = "<group>";
+		};
+		3D6E64C72C2B2FB700635469 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E64C82C2B2FE600635469 /* 1.TwoSum.swift */,
+				3D6E64CA2C2B305600635469 /* 2.LongestSubstringWithoutRepeatingCharacters.swift */,
+				3D6E64CC2C2B30C300635469 /* 9.PalindromeNumber.swift */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,9 @@
 			files = (
 				3D6E64B82C2B2F0900635469 /* ViewController.swift in Sources */,
 				3D6E64B42C2B2F0900635469 /* AppDelegate.swift in Sources */,
+				3D6E64C92C2B2FE600635469 /* 1.TwoSum.swift in Sources */,
+				3D6E64CB2C2B305600635469 /* 2.LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
+				3D6E64CD2C2B30C300635469 /* 9.PalindromeNumber.swift in Sources */,
 				3D6E64B62C2B2F0900635469 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
